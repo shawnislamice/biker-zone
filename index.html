@@ -63,7 +63,7 @@
                             <li><a class="text-[#000000] font-[500]">Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost font-poppins text-3xl font-[700] text-[#000000] ml-10">Bike Dekho</a>
+                    <a class="btn btn-ghost font-poppins text-xl md:text-3xl md:font-[700] text-[#000000] ml-10">Bike Dekho</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -75,13 +75,13 @@
                 </div>
                 <div class="navbar-end w-auto">
                     <a
-                        class="btn btn-success bg-[#E76F51] border-none outline-none px-[57px] py-[17px] text-white font-[600] font-poppins ml-6">Login</a>
+                        class="btn btn-success bg-[#E76F51] border-none outline-none md:px-[57px] md:py-[17px] text-white font-[600] font-poppins ml-6">Login</a>
                 </div>
             </div>
         </nav>
         <!-- Nav var ends here -->
         <!-- Slider or carousel starts here -->
-        <div class="carousel w-full bg-bg-color lg:max-h-[550px] mt-14">
+        <div class="carousel w-full bg-bg-color lg:max-h-[550px] mt-5 md:mt-14 py-4">
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p:p-4 lg:p-24 items-center gap-5">
 
@@ -182,22 +182,30 @@
         </div>
         <!-- Slider or carousel ends here -->
     </header>
-    <main class="md:container md:mx-auto md:my-[130px] lg:my-[130px]">
+    <main class="md:container md:mx-auto md:my-[130px]  md:mt-6">
         <!-- Featured Bikes starts here -->
-        <section>
-
+        <section class="my-7 md:mt-32 md:mb-5">
+            <h3 class="text-2xl md:text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center ">Fetured Bikes In This Year
+            </h3>
+            <p class="font-poppins md:text-[16px] text-[#E76F51] font-[600] text-center py-2">Best bike collection</p>
+            <div class="flex flex-wrap md:flex-row flex-col gap-10 md:gap-[130px] items-center justify-center md:mt-11 mt-5">
+                <div><img class="w-full" src="./images/others/feature-bike.png" alt=""></div>
+                <div><img class="w-full" src="./images/others/feature-bike.png" alt=""></div>
+                <div><img class="w-full" src="./images/others/feature-bike.png" alt=""></div>
+                
+            </div>
         </section>
         <!-- Featured Bikes ends here -->
         <!-- Latest news starts here -->
-        <section class="mb-32">
-            <h3 class="text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center pb-12">latest News</h3>
+        <section class="mb-10 md:mb-32">
+            <h3 class="text-2xl md:text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center pb-4 md:pb-12 pt-6 md:pt-[130px]">latest News</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
                 <!-- First card -->
                 <div>
                     <div class="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
                         <div class="card-body mt-5 mb-2">
-                            <h2 class="card-title font-poppins font-[700] text-[28px]">Ducati XDIAVEL S-73</h2>
+                            <h2 class="card-title font-poppins font-[700] lg:text-[28px]">Ducati XDIAVEL S-73</h2>
                             <p class="font-poppins md:text-[16px] text-des-color">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start mt-5">
@@ -211,7 +219,7 @@
                     <div class="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
                         <div class="card-body mt-5 mb-2">
-                            <h2 class="card-title font-poppins font-[700] text-[28px]">Motorcycles & Scooters</h2>
+                            <h2 class="card-title font-poppins font-[700] md:text-[28px]">Motorcycles & Scooters</h2>
                             <p class="font-poppins md:text-[16px] text-des-color">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start mt-5">
@@ -225,7 +233,7 @@
                     <div class="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
                         <div class="card-body mt-5 mb-2">
-                            <h2 class="card-title font-poppins font-[700] text-[28px]">2021 Honda CBR500R</h2>
+                            <h2 class="card-title font-poppins font-[700] md:text-[28px]">2021 Honda CBR500R</h2>
                             <p class="font-poppins md:text-[16px] text-des-color">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start mt-5">
@@ -239,8 +247,8 @@
         </section>
         <!-- Latest news ends here -->
         <!-- Happy Clients Starts here -->
-        <section>
-            <h3 class="text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center pb-12">Happy <span
+        <section class="md:mt-4">
+            <h3 class="text-2xl md:text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center pb-12 ">Happy <span
                     class="text-bike-primary">Clients says</span></h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11">
                 <!-- First client review -->
@@ -313,8 +321,8 @@
         </section>
         <!-- Happy Clients ends here -->
         <!-- Frequently Asked questions starts here -->
-        <section class="my-32">
-            <h3 class="text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center ">Frequently Asked
+        <section class="my-7 md:my-32">
+            <h3 class="text-2xl md:text-5xl capitalize font-semibold text-[#0A0826] font-poppins text-center ">Frequently Asked
                 <span class="text-bike-primary">Questions</span>
             </h3>
             <div class="hero lg:mt-10">
@@ -373,19 +381,35 @@
         <!-- Frequently Asked questions ends here -->
     </main>
     <!-- Footer Starts here -->
-    <footer class="footer p-10 bg-neutral text-neutral-content">
-        <aside>
-          <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
-        </aside> 
-        <nav>
-          <header class="footer-title">Social</header> 
-          <div class="grid grid-flow-col gap-4">
-            <a><img class="max-w-[135px]" src="./images/others/android.png" alt=""></a>
-            <a><img class="max-w-[135px]" src="./images/others/ios.png" alt=""></a>
-          </div>
+    <footer class="footer p-10 bg-[#0B0D17] text-base-content mx-w-6xl flex justify-around">
+        <div class="font-poppins">
+            <nav class="flex flex-col gap-6 pb-4 md:flex-col lg:flex-row justify-center items-center">
+            
+                <a class="link link-hover text-white">Download Now</a>
+                <a class="link link-hover text-white">License</a>
+                
+            </nav>
+            <nav class="flex flex-col gap-6 pb-4 md:flex-col lg:flex-row items-center">
+                
+                <a class="link link-hover text-white">About</a>
+                <a class="link link-hover text-white">Features</a>
+                <a class="link link-hover text-white">Pricing</a>
+                <a class="link link-hover text-white">Careers</a>
+                <a class="link link-hover text-white">Help</a>
+                <a class="link link-hover text-white">Privacy Policy</a>
+            </nav>
+            <p class="text-white ">© 2020 bike. All rights reserved</p>
+        </div>
+        <nav class="font-poppins block my-auto">
+            <header class="text-white">Get the App</header>
+            <div class="flex flex-col gap-4">
+                <a><img class="w-[135px] cursor-pointer" src="./images/others/android.png" alt=""></a>
+                <a><img class="w-[135px] cursor-pointer" src="./images/others/ios.png" alt=""></a>
+                <a></a>
+            </div>
         </nav>
-      </footer>
-      <p class="text-2xl text-red-500 w-[100%] g"> How Are you</p>
+    </footer>
+
     <!-- Footer ends here -->
 </body>
 
